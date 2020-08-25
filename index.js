@@ -40,3 +40,4 @@ function GetPairNumberFromColors(majorColor, minorColor) {
     return majorIndex * MinorColors.length + minorIndex + 1;
 }
 console.log(GetPairNumberFromColors("violet","slate"));
+export{GetColorFromPairNumber,GetPairNumberFromColors};

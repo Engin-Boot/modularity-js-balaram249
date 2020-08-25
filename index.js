@@ -39,4 +39,4 @@ function GetPairNumberFromColors(majorColor, minorColor) {
     }
     return majorIndex * MinorColors.length + minorIndex + 1;
 }
-console.log(GetPairNumberFromColors(violet,slate));
+console.log(GetPairNumberFromColors("violet","slate"));

@@ -1,5 +1,5 @@
 const expect = require('chai').expect;
-const index = require('./index');
+const evaluate = require('./evaluate');
 function testNumberToPair(number, expectedMajor, expectedMinor) {
     const pairOfColors = GetColorFromPairNumber(number);
     console.log(`${number} = ${expectedMajor} ${expectedMinor}`);

@@ -1,5 +1,3 @@
-const expect = require('chai').expect;
-
 const MajorColors = [
     "white",
     "red",

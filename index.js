@@ -1,2 +1,2 @@
 const evaluate = require('./evaluate');
-console.log(GetColorFromPairNumber(25));
+console.log(evaluate.GetColorFromPairNumber(25));

@@ -1,5 +1,5 @@
 var evaluate = require('./evaluate');
-var tests=require('./evaluate');
+var tests=require('./tests');
 console.log("color coder");
 tests.testNumberToPair(4, "white", "brown");
 tests.testNumberToPair(25, "violet", "slate");

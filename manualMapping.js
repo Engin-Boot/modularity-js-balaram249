@@ -11,8 +11,8 @@ function toString(){
         manualMapping.set(temporaryPairNumber,temporaryColorPair);
 
     }
- //   console.log(manualMapping);
+    console.log(manualMapping);
     return manualMapping;
 }
-var temp=toString();
+//var temp=toString();
 //console.log(temp);

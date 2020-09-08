@@ -1,2 +1,3 @@
 const manualMapping=require('./manualMapping.js');
-console.log(manualMapping.toString());
+let temporaryMap=manualMapping.toString();
+console.log(temporaryMap);

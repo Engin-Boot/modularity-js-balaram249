@@ -16,3 +16,4 @@ function toString(){
 }
 //var temp=toString();
 //console.log(temp);
+module.exports=toString;

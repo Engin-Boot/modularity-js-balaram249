@@ -12,7 +12,7 @@ function toString(){
 
     }
     console.log(manualMapping);
-    return manualMapping;
+    //return manualMapping;
 }
 //var temp=toString();
 //console.log(temp);

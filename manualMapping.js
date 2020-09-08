@@ -1,13 +1,13 @@
 const expect = require('chai').expect;
 const evaluate = require('./evaluate');
 //const expect = require('chai').expect;
-const tests = require('./tests');
-const { GetColorFromPairNumber } = require('./evaluate');
+//const tests = require('./tests');
+//const  GetColorFromPairNumber  = require('./evaluate');
 function toString(){
     var manualMapping =new Map();
     let temporaryPairNumber;
     for(temporaryPairNumber=1;temporaryPairNumber<26;temporaryPairNumber++){
-        let temporaryColorPair=GetColorFromPairNumber(temporaryPairNumber);
+        let temporaryColorPair=evaluate.GetColorFromPairNumber(temporaryPairNumber);
         manualMapping.set(temporaryPairNumber,temporaryColorPair);
 
     }
@@ -15,4 +15,4 @@ function toString(){
     return manualMapping;
 }
 var temp=toString();
-console.log(temp);
+//console.log(temp);

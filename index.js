@@ -1,2 +1,2 @@
-var manualMapping=require('./manualMapping.js');
+const manualMapping=require('./manualMapping.js');
 console.log(manualMapping.toString());
